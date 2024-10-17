@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Movie Ranking Site</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.0/dist/tailwind.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        
+    </style>
+</head>
+
+<body class="bg-gray-900 text-white">
+
+    
+    <nav class="bg-gray-800 p-4 fixed w-full top-0 z-10">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Movie Ranking Platform</h1>
+            <div>
+                <a href="#genres" class="mx-2 hover:text-yellow-500">Genres</a>
+                <a href="#top-movies" class="mx-2 hover:text-yellow-500">Top Movies</a>
+                <a href="#contact" class="mx-2 hover:text-yellow-500">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    
+    <header>
+        <section id="home">
+            <video autoplay muted loop>
+                <source src="bg.mp4" type="video/mp4">
+            </video>
+    
+            <div class="home-content">
+                <h2>Welcome to My Movie Ranking Site</h2>
+            </div>
+        </section>
+    </header>
+
+    <!-- About Section -->
+    <section class="container mx-auto p-8 mt-20 text-center">
+        <p class="text-xl mb-6">
+            An awesome platform for sharing my taste in favorite Movies.
+        </p>
+    </section>
+
+    <!-- Movie Genres Section -->
+    <section id="genres" class="container mx-auto p-8">
+        <h2 class="text-3xl font-bold mb-4">Movie Genres</h2>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+            
+            <div class="bg-gray-700 p-4 rounded-lg">
+                <img src="6.jpg" alt="Action" class="w-full h-40 object-cover mb-4">
+                <h3 class="text-xl">Action</h3>
+            </div>            
+            <div class="bg-gray-700 p-4 rounded-lg">
+                <img src="14.jpg" alt="Thriller" class="w-full h-40 object-cover mb-4">
+                <h3 class="text-xl">Thriller</h3>
+            </div>
+            <div class="bg-gray-700 p-4 rounded-lg">
+                <img src="9.jpg" alt="Animation" class="w-full h-40 object-cover mb-4">
+                <h3 class="text-xl">Animation</h3>
+            </div>
+            <div class="bg-gray-700 p-4 rounded-lg">
+                <img src="31.jpg" alt="Horror" class="w-full h-40 object-cover mb-4">
+                <h3 class="text-xl">Horror</h3>
+            </div>
+            <div class="bg-gray-700 p-4 rounded-lg">
+                <img src="16.jpg" alt="Sci-Fi" class="w-full h-40 object-cover mb-4">
+                <h3 class="text-xl">Sci-Fi</h3>
+            </div>
+            <div class="bg-gray-700 p-4 rounded-lg">
+                <img src="29.jpg" alt="Fantansy" class="w-full h-40 object-cover mb-4">
+                <h3 class="text-xl">Fantasy</h3>
+            </div>
+            <div class="bg-gray-700 p-4 rounded-lg">
+                <img src="32.jpeg" alt="Comedy" class="w-full h-40 object-cover mb-4">
+                <h3 class="text-xl">Comedy</h3>
+            </div>
+            <div class="bg-gray-700 p-4 rounded-lg">
+                <img src="33.jpeg" alt="Drama" class="w-full h-40 object-cover mb-4">
+                <h3 class="text-xl">Drama</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Top Movies Section -->
+    <section id="top-movies" class="container mx-auto p-8 mt-10">
+        <h2 class="text-3xl font-bold mb-4">Top 5 Movies</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            
+            <div class="bg-gray-700 p-4 rounded-lg">
+                <img src="26.jpg" alt="Movie 1" class="w-full h-60 object-cover mb-4">
+                <h3 class="text-xl">Rebel Ridge</h3>
+                <p class="mt-2">Rank #1</p>
+                <a href="https://www.youtube.com/watch?v=gF3gZicntIw" class="text-yellow-500 mt-2">Watch Trailer</a>
+            </div>
+            <div class="bg-gray-700 p-4 rounded-lg">
+                <img src="1.jpg" alt="Movie 1" class="w-full h-60 object-cover mb-4">
+                <h3 class="text-xl">Salem's Lot</h3>
+                <p class="mt-2">Rank #2</p>
+                <a href="https://www.youtube.com/watch?v=QtVzKkv03ic" class="text-yellow-500 mt-2">Watch Trailer</a>
+            </div>
+            <div class="bg-gray-700 p-4 rounded-lg">
+                <img src="30.jpg" alt="Movie 1" class="w-full h-60 object-cover mb-4">
+                <h3 class="text-xl">3 Body Problem</h3>
+                <p class="mt-2">Rank #3</p>
+                <a href="https://www.youtube.com/watch?v=SdvzhCL7vIA" class="text-yellow-500 mt-2">Watch Trailer</a>
+            </div>
+            <div class="bg-gray-700 p-4 rounded-lg">
+                <img src="18.jpg" alt="Movie 1" class="w-full h-60 object-cover mb-4">
+                <h3 class="text-xl">Blink Twice</h3>
+                <p class="mt-2">Rank #4</p>
+                <a href="https://www.youtube.com/watch?v=aMcmfonGWY4" class="text-yellow-500 mt-2">Watch Trailer</a>
+            </div>
+            <div class="bg-gray-700 p-4 rounded-lg">
+                <img src="24.jpg" alt="Movie 1" class="w-full h-60 object-cover mb-4">
+                <h3 class="text-xl">Borderlands</h3>
+                <p class="mt-2">Rank #5</p>
+                <a href="https://www.youtube.com/watch?v=lU_NKNZljoQ" class="text-yellow-500 mt-2">Watch Trailer</a>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <footer id="contact" class="bg-gray-800 p-8 mt-10">
+        <div class="container mx-auto text-center">
+            <h3 class="text-xl font-bold">Contact Us</h3>
+            <form action="#" method="POST" class="mt-4">
+                <input type="email" placeholder="Enter your email" class="p-2 w-64 rounded-lg bg-gray-600 text-white" />
+                <button type="submit" class="p-2 bg-yellow-500 text-black rounded-lg">Subscribe</button>
+            </form>
+        </div>
+
+       
+            <div class="footer-container">
+                
+                <div class="footer-column">
+                    <h3><b>About Us</b></h3>
+                    <p>An awesome platform for sharing my taste in favorite Movies.</p>
+                </div>
+        
+                
+                <div class="footer-column">
+                    <h3>Follow Us</h3>
+                    <div class="social-media-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>        
+      
+    </footer>
+
+</body>
+
+</html>
